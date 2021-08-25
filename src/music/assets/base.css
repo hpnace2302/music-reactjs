@@ -1,0 +1,52 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {  margin: 0;  padding: 0;  border: 0;  font-size: 100%;  font: inherit;  vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {  display: block;}body {  line-height: 1;}ol, ul {  list-style: none;}blockquote, q {  quotes: none;}blockquote:before, blockquote:after,q:before, q:after {  content: '';  content: none;}table {  border-collapse: collapse;  border-spacing: 0;}
+*,*:before,*:after {box-sizing: border-box; margin: 0;border: 0;padding: 0;}/* using rem unit */html {  font-size: 62.5%;}a {  text-decoration: none;} li {list-style: none;}img {  display: block;  max-width: 100%;}body {  font-family: 'Poppins', sans-serif;  font-size: 16px;  line-height: 1;}input,
+button,textarea,select {  outline: none;  font-family: 'Poppins', sans-serif;  font-size: 16px;  line-height: 1;}input {  line-height: normal;}button {  cursor: pointer;}
+:root {
+  --primary-color: #000;
+  --primary-color2: #101010;
+  --primary-color3: #121212;
+  --primary-color4: #181818;
+  --primary-color5: #333;
+  --primary-color6: #373737;
+  --text-color: #fff;
+  --text-color2: #b3b3b3;
+  --bg-light: #fff;
+  --nav-width: 24rem;
+  --nav-content-height: 6rem;
+  --nav-footer-height: 9rem;
+  --nav-footer-mobile-height: 15rem;
+  --green-color1: #15883e;
+  --green-color2: #4bdf80;
+}
+
+@keyframes growth {
+  from {
+      transform: scale(0.9);
+  }
+  to {
+      transform: scale(1);
+  }
+}
+@keyframes FadeIn{
+  from{
+      opacity: 0;
+  }
+  to{
+      opacity: 1;
+  }
+}
+
+.ml0 {
+  margin-left: 0;
+}
+.mr0 {
+  margin-right: 0;
+}
+.input__format {
+  width: 100%;
+  height: 4rem;
+  padding: 0 1.4rem;
+  border: 1px solid var(--text-color2);
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
